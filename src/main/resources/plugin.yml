@@ -1,0 +1,17 @@
+name: GimerUltimateSeasons
+version: '1.0'
+main: gimer.gimerultimateseasons.GimerUltimateSeasons
+api-version: '1.20'
+description: Gimer Ultimate Seasons | The ultimate seasons pugin for Minecraft.
+
+commands:
+  season:
+    description: Check or set the current season
+    usage: /season [get|set]
+  temperature:
+    description: Check the temperature.
+
+permissions:
+  gimerultimateseasons.command.season:
+    description: Allows access to /season command
+    default: op
